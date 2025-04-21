@@ -1,8 +1,6 @@
 # Assignment1 Base
 
-### This project aims at relieving you from the setup & integration hassle between Antler and java
-
-How to use:
+### This project aims at relieving you from the setup & integration hassle between Antler and java, you don't need to download or install Antler, you just have to:
 
 1. Clone the repository
 2. Write your Antler code(with embedeed java syntax) in `Assignment1.g4` file which exists in './src/main/antlr4/antlr/bits/Assignment1.g4'
