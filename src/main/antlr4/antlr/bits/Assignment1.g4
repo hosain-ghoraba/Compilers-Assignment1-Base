@@ -1,7 +1,9 @@
 /**
  * Write your info here
  * 
- * @name Jane Smith @id 52-0234 @tutNumber 06
+ * @name Jane Smith
+   @id 52-0234 
+   @tutNumber 06
  */
 
 grammar Assignment1;
