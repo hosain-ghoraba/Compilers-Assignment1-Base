@@ -1,4 +1,4 @@
-// Generated from /home/hosain/Desktop/BitLexerApp-Copy/src/main/antlr4/antlr/bits/Assignment1.g4 by ANTLR 4.13.1
+// Generated from /home/hosain/Desktop/test/Compilers-Assignment1-Base/src/main/antlr4/antlr/bits/Assignment1.g4 by ANTLR 4.13.1
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
 import org.antlr.v4.runtime.*;
@@ -16,6 +16,8 @@ public class Assignment1Parser extends Parser {
 	protected static final PredictionContextCache _sharedContextCache =
 		new PredictionContextCache();
 	public static final int
+		BIT=1;
+	public static final int
 		RULE_test = 0;
 	private static String[] makeRuleNames() {
 		return new String[] {
@@ -31,6 +33,7 @@ public class Assignment1Parser extends Parser {
 	private static final String[] _LITERAL_NAMES = makeLiteralNames();
 	private static String[] makeSymbolicNames() {
 		return new String[] {
+			null, "BIT"
 		};
 	}
 	private static final String[] _SYMBOLIC_NAMES = makeSymbolicNames();
@@ -115,7 +118,7 @@ public class Assignment1Parser extends Parser {
 	}
 
 	public static final String _serializedATN =
-		"\u0004\u0001\u0000\u0005\u0002\u0000\u0007\u0000\u0001\u0000\u0001\u0000"+
+		"\u0004\u0001\u0001\u0005\u0002\u0000\u0007\u0000\u0001\u0000\u0001\u0000"+
 		"\u0001\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0003\u0000\u0002\u0001"+
 		"\u0000\u0000\u0000\u0002\u0003\u0005\u0000\u0000\u0001\u0003\u0001\u0001"+
 		"\u0000\u0000\u0000\u0000";

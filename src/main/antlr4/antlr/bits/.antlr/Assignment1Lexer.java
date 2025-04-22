@@ -1,4 +1,4 @@
-// Generated from /home/hosain/Desktop/BitLexerApp-Copy/src/main/antlr4/antlr/bits/Assignment1.g4 by ANTLR 4.13.1
+// Generated from /home/hosain/Desktop/test/Compilers-Assignment1-Base/src/main/antlr4/antlr/bits/Assignment1.g4 by ANTLR 4.13.1
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.Token;
@@ -16,7 +16,7 @@ public class Assignment1Lexer extends Lexer {
 	protected static final PredictionContextCache _sharedContextCache =
 		new PredictionContextCache();
 	public static final int
-		BIT=1, TWOBITS=2, THREEBITS=3, WS=4;
+		BIT=1;
 	public static String[] channelNames = {
 		"DEFAULT_TOKEN_CHANNEL", "HIDDEN"
 	};
@@ -27,7 +27,7 @@ public class Assignment1Lexer extends Lexer {
 
 	private static String[] makeRuleNames() {
 		return new String[] {
-			"BIT", "TWOBITS", "THREEBITS", "WS"
+			"BIT"
 		};
 	}
 	public static final String[] ruleNames = makeRuleNames();
@@ -39,7 +39,7 @@ public class Assignment1Lexer extends Lexer {
 	private static final String[] _LITERAL_NAMES = makeLiteralNames();
 	private static String[] makeSymbolicNames() {
 		return new String[] {
-			null, "BIT", "TWOBITS", "THREEBITS", "WS"
+			null, "BIT"
 		};
 	}
 	private static final String[] _SYMBOLIC_NAMES = makeSymbolicNames();
@@ -101,24 +101,11 @@ public class Assignment1Lexer extends Lexer {
 	public ATN getATN() { return _ATN; }
 
 	public static final String _serializedATN =
-		"\u0004\u0000\u0004\u0018\u0006\uffff\uffff\u0002\u0000\u0007\u0000\u0002"+
-		"\u0001\u0007\u0001\u0002\u0002\u0007\u0002\u0002\u0003\u0007\u0003\u0001"+
-		"\u0000\u0001\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0002\u0001"+
-		"\u0002\u0001\u0002\u0001\u0003\u0004\u0003\u0013\b\u0003\u000b\u0003\f"+
-		"\u0003\u0014\u0001\u0003\u0001\u0003\u0000\u0000\u0004\u0001\u0001\u0003"+
-		"\u0002\u0005\u0003\u0007\u0004\u0001\u0000\u0001\u0003\u0000\t\n\r\r "+
-		" \u0018\u0000\u0001\u0001\u0000\u0000\u0000\u0000\u0003\u0001\u0000\u0000"+
-		"\u0000\u0000\u0005\u0001\u0000\u0000\u0000\u0000\u0007\u0001\u0000\u0000"+
-		"\u0000\u0001\t\u0001\u0000\u0000\u0000\u0003\u000b\u0001\u0000\u0000\u0000"+
-		"\u0005\u000e\u0001\u0000\u0000\u0000\u0007\u0012\u0001\u0000\u0000\u0000"+
-		"\t\n\u000201\u0000\n\u0002\u0001\u0000\u0000\u0000\u000b\f\u0003\u0001"+
-		"\u0000\u0000\f\r\u0003\u0001\u0000\u0000\r\u0004\u0001\u0000\u0000\u0000"+
-		"\u000e\u000f\u0003\u0003\u0001\u0000\u000f\u0010\u0003\u0001\u0000\u0000"+
-		"\u0010\u0006\u0001\u0000\u0000\u0000\u0011\u0013\u0007\u0000\u0000\u0000"+
-		"\u0012\u0011\u0001\u0000\u0000\u0000\u0013\u0014\u0001\u0000\u0000\u0000"+
-		"\u0014\u0012\u0001\u0000\u0000\u0000\u0014\u0015\u0001\u0000\u0000\u0000"+
-		"\u0015\u0016\u0001\u0000\u0000\u0000\u0016\u0017\u0006\u0003\u0000\u0000"+
-		"\u0017\b\u0001\u0000\u0000\u0000\u0002\u0000\u0014\u0001\u0006\u0000\u0000";
+		"\u0004\u0000\u0001\u0005\u0006\uffff\uffff\u0002\u0000\u0007\u0000\u0001"+
+		"\u0000\u0001\u0000\u0000\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0004"+
+		"\u0000\u0001\u0001\u0000\u0000\u0000\u0001\u0003\u0001\u0000\u0000\u0000"+
+		"\u0003\u0004\u000201\u0000\u0004\u0002\u0001\u0000\u0000\u0000\u0001\u0000"+
+		"\u0000";
 	public static final ATN _ATN =
 		new ATNDeserializer().deserialize(_serializedATN.toCharArray());
 	static {
