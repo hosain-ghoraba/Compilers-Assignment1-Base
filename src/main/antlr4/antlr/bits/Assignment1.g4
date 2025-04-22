@@ -1,22 +1,19 @@
-/**
- * Write your info here
- * 
- * @name Jane Smith 
-   @id 52-0234 
-   @tutNumber 06
- */
+// Below is an example of writing ANTLR with embedded Java code
 
 grammar Assignment1;
 
-/**
- * This rule is to check your grammar using "ANTLR Preview"
- */
-test:
-	/* (Rule1 | Rule2 | ... | RuleN)+ */ EOF; //Replace the non-fragment lexer rules here
+test: seg+ EOF;
 
-// Write all the necessary lexer rules and fragment lexer rules here 
+seg:
+	s = bit {
+        String text = $s.text;
+        if (text.equals("0") || text.equals("00")) {
+            System.out.print("zeros,");
+        } else {
+            System.out.print("hello,");
+        }
+    };
 
-
-
-// dummy rule (to prevent compilation error), replace with your own rules for the assignment
-BIT: '0' | '1';
+bit: zeroes | ones;
+zeroes: '0' | '00';
+ones: '1' | '11';
